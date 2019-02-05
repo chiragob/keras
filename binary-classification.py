@@ -9,6 +9,7 @@ model.compile(optimizer='rmsprop',
               metrics=['accuracy'])
 
 # Generate dummy data
+
 import numpy as np
 data = np.random.random((1000, 100))
 labels = np.random.randint(2, size=(1000, 1))
